@@ -342,7 +342,11 @@
    #about p{
       font-size: 13px;
    }
+
    #about h3{
+      font-size: 13px;
+   }
+   #about .experiences{
       font-size: 13px;
    }
 
