@@ -339,6 +339,10 @@
    header .social { font-size: 20px;}
    header .social li { margin: 0 6px; }
 
+   header .copyright{
+      font-size: 10px;
+   }
+
    #about p{
       font-size: 13px;
    }
