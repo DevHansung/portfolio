@@ -211,13 +211,13 @@ header .scrolldown .icon-down-circle:hover { color: #222222cb; }
    font-weight: bold;
    color: rgb(0, 0, 0);
    margin-top:10px;
-   margin-bottom: 0px;
+   margin-bottom: 5px;
 }
 #about h5 {
    font: 13px/13px 'opensans-bold', sans-serif;
    color: rgb(0, 0, 0);
    margin-top:10px;
-   margin-bottom: 12px;
+   margin-bottom: 15px;
 }
 #about .about-start{
    margin-bottom: 20px;
@@ -228,7 +228,7 @@ header .scrolldown .icon-down-circle:hover { color: #222222cb; }
    margin-bottom:5px;
 }
 #about .contents{
-   line-height: 140%;
+   line-height: 1.1rem;
    font-size: 14px;
    color: rgb(27, 27, 27);
    margin-bottom:5px;
