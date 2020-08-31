@@ -190,6 +190,7 @@ header .scrolldown .icon-down-circle:hover { color: #222222cb; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
+   font-weight: bold;
    color: rgb(0, 0, 0);
    margin-bottom: 15px;
 }
@@ -207,6 +208,7 @@ header .scrolldown .icon-down-circle:hover { color: #222222cb; }
 }
 #about h4 {
    font: 13px/13px 'opensans-bold', sans-serif;
+   font-weight: bold;
    color: rgb(0, 0, 0);
    margin-top:10px;
    margin-bottom: 0px;
@@ -223,7 +225,6 @@ header .scrolldown .icon-down-circle:hover { color: #222222cb; }
 #about p {
    line-height:140%;
    color: #383838;
-   margin-bottom: 5px;
 }
 #about .contents{
    line-height: 140%;
@@ -347,6 +348,7 @@ header .scrolldown .icon-down-circle:hover { color: #222222cb; }
 }
 #portfolio .info {
    font: 17px/24px 'opensans-regular', serif;
+   font-weight: bold;
    color: rgba(61, 62, 63, 0.849);
    margin-bottom: 18px;
    margin-top: 9px;

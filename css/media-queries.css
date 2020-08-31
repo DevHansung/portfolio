@@ -190,17 +190,22 @@
    }
    #about p{
       font-size: 13px;
+      line-height:130%;
    }
    #about h3{
       font-size: 13px;
       margin-bottom: 3px;
       margin-top:10px;
    }
+   #about h5 {
+      margin-bottom: 11px;
+   }
    #about .contents{
       font-size: 12px;
    }
    #about .about-block{
       display: inline-block;
+      margin-top:5px;
    }
    #about .contentsLeft{
       all: unset;
