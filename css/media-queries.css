@@ -234,16 +234,14 @@
       font-size: 12px;
    }
    #about .about-block{
-      display: unset;
+      display: inline-block;
    }
    #about .contentsLeft{
-      clear: none;
-      float: none;
-      width:100%;
+      all: unset;
    }
    #about .contentsRight{
-      float: none;
-      width:100%;
+      all: unset;
+
    }
    #about .main-col { padding-right: 30px; }
 
