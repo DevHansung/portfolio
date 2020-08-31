@@ -38,7 +38,15 @@
       margin-left: 12px;
    }
    #about .contact-details { width: 50%; }
-   #about .download { width: 50%; }
+   #about .download {
+      width: 50%; 
+      margin-bottom: 1px;
+   }
+   #about .download .button {
+      width: 100%;
+      text-align: center;
+      padding: 15px 20px;
+   }
    /* Resume Section */
    #resume h1 { font: 16px/24px 'opensans-bold', sans-serif; }
    #resume .main-col { padding-right: 5%; }   
@@ -180,14 +188,7 @@
 
    /* About Section*/
    #about .profile-pic { display: none; }
-   #about .download {
-      margin-bottom: 1px;
-   }
-   #about .download .button {
-      width: 100%;
-      text-align: center;
-      padding: 15px 20px;
-   }
+
    #about p{
       font-size: 13px;
       line-height:130%;
