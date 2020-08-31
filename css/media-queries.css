@@ -86,7 +86,7 @@
 /* mobile wide/smaller tablets
 ---------------------------------------------------------------------- */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
 
    /* mobile navigation
    -------------------------------------------------------------------- */
@@ -215,10 +215,32 @@
    /* About Section
    -------------------------------------------------------------------- */
    #about .profile-pic { display: none; }
+   #about .download {
+      margin-bottom: 5px;
+   }
    #about .download .button {
       width: 100%;
       text-align: center;
       padding: 15px 20px;
+   }
+   #about p{
+      font-size: 13px;
+   }
+
+   #about h3{
+      font-size: 13px;
+   }
+   #about .contents{
+      font-size: 12px;
+   }
+   #about .contentsLeft{
+      clear: none;
+      float: none;
+      width:100%;
+   }
+   #about .contentsRight{
+      float: none;
+      width:100%;
    }
    #about .main-col { padding-right: 30px; }
 
@@ -342,18 +364,6 @@
    header .copyright{
       font-size: 11px;
    }
-
-   #about p{
-      font-size: 13px;
-   }
-
-   #about h3{
-      font-size: 13px;
-   }
-   #about .experiences{
-      font-size: 13px;
-   }
-
    #portfolio .contents-box {
       font-size: 10px;
    }
