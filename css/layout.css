@@ -202,14 +202,14 @@ header .scrolldown .icon-down-circle:hover { color: #222222cb; }
    font: 15px/15px 'opensans-bold', sans-serif;
    font-weight: bold;
    color: rgb(0, 0, 0);
-   margin-bottom: 5px;
-   margin-top:10px;
+   margin-bottom: 3px;
+   margin-top:15px;
 }
 #about h4 {
    font: 13px/13px 'opensans-bold', sans-serif;
    color: rgb(0, 0, 0);
-   margin-top:5px;
-   margin-bottom: 0px;
+   margin-top:10px;
+   margin-bottom: 3px;
 }
 #about h5 {
    font: 13px/13px 'opensans-bold', sans-serif;
@@ -283,7 +283,6 @@ header .scrolldown .icon-down-circle:hover { color: #222222cb; }
    padding-bottom: 72px;
    overflow: hidden;
 }
-
 #portfolio a, #portfolio a:visited  { color: #12a568; }
 #portfolio a:hover, #portfolio a:focus { color: #313131; }
 
