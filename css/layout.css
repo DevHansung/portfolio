@@ -225,11 +225,13 @@ header .scrolldown .icon-down-circle:hover { color: #222222cb; }
 #about p {
    line-height:140%;
    color: #383838;
+   margin-bottom:5px;
 }
 #about .contents{
    line-height: 140%;
    font-size: 14px;
    color: rgb(27, 27, 27);
+   margin-bottom:5px;
 }
 #about .profile-pic {
    position: relative;
@@ -286,7 +288,6 @@ header .scrolldown .icon-down-circle:hover { color: #222222cb; }
 }
 #portfolio a, #portfolio a:visited  { color: #12a568; }
 #portfolio a:hover, #portfolio a:focus { color: #313131; }
-
 #portfolio h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
@@ -294,21 +295,18 @@ header .scrolldown .icon-down-circle:hover { color: #222222cb; }
 }
 #portfolio h1 span {
    border-bottom: 3px solid #12a568;
-   padding-bottom: 6px;
+   padding-bottom: 5px;
 }
 #portfolio h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
 }
-
 #portfolio p {
    word-break: break-all;
-   line-height:170%;
+   line-height:160%;
    font-size: 13px;
 }
-
 #portfolio .header-col { padding-top: 9px; }
 #portfolio .main-col { padding-right: 10%; }
-
 #portfolio .portfolio-box {
    height: 100%;
    width: 100%;
@@ -318,7 +316,6 @@ header .scrolldown .icon-down-circle:hover { color: #222222cb; }
    background: rgba(255, 255, 255, 0);
    box-shadow: 0 3px 6px rgba(0,0,0,.2), 0 3px 6px rgba(0,0,0,.2);
 }
-
 #portfolio .portfolio-pic {
    position: relative;
    width: 200px;
@@ -347,10 +344,10 @@ header .scrolldown .icon-down-circle:hover { color: #222222cb; }
    float: none;
 }
 #portfolio .info {
-   font: 17px/24px 'opensans-bold', serif;
+   font: 17px/24px 'opensans-regular', serif;
    font-weight: bold;
    color: rgba(61, 62, 63, 0.849);
-   margin-bottom: 18px;
+   margin-bottom: 10px;
    margin-top: 9px;
 }
 #portfolio .info span {
@@ -358,7 +355,7 @@ header .scrolldown .icon-down-circle:hover { color: #222222cb; }
    margin-left: 5px;
 }
 #portfolio .tag {
-   font: 15px/24px 'opensans-regular', sans-serif;
+   font: 13px/24px 'opensans-regular', sans-serif;
    line-height:130%;
    margin-top: 3px;
 }
@@ -513,11 +510,11 @@ header .scrolldown .icon-down-circle:hover { color: #222222cb; }
    line-height: 48px;
    color: #fff
 }
-#contact blockquote cite {
+#contact blockquote .userinfo {
    display: block;
    font-size: 15px;
    font-style: normal;
-   line-height: 18px;
+   line-height: 160%;
    color: #fff;
 }
 #contact blockquote cite:before { content: "\2014 \0020"; }
