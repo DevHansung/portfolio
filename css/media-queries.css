@@ -193,7 +193,8 @@
    }
    #about h3{
       font-size: 13px;
-      margin-bottom: 0px;
+      margin-bottom: 3px;
+      margin-top:10px;
    }
    #about .contents{
       font-size: 12px;
