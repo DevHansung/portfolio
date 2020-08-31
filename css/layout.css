@@ -202,14 +202,14 @@ header .scrolldown .icon-down-circle:hover { color: #222222cb; }
    font: 15px/15px 'opensans-bold', sans-serif;
    font-weight: bold;
    color: rgb(0, 0, 0);
-   margin-bottom: 3px;
+   margin-bottom: 5px;
    margin-top:15px;
 }
 #about h4 {
    font: 13px/13px 'opensans-bold', sans-serif;
    color: rgb(0, 0, 0);
    margin-top:10px;
-   margin-bottom: 3px;
+   margin-bottom: 0px;
 }
 #about h5 {
    font: 13px/13px 'opensans-bold', sans-serif;
@@ -218,7 +218,7 @@ header .scrolldown .icon-down-circle:hover { color: #222222cb; }
    margin-bottom: 12px;
 }
 #about .about-start{
-   margin-bottom: 30px;
+   margin-bottom: 20px;
 }
 #about p {
    line-height:140%;
