@@ -347,7 +347,7 @@ header .scrolldown .icon-down-circle:hover { color: #222222cb; }
    float: none;
 }
 #portfolio .info {
-   font: 17px/24px 'opensans-regular', serif;
+   font: 17px/24px 'opensans-bold', serif;
    font-weight: bold;
    color: rgba(61, 62, 63, 0.849);
    margin-bottom: 18px;
