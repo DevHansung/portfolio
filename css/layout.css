@@ -359,7 +359,8 @@ header .scrolldown .icon-down-circle:hover { color: #222222cb; }
 }
 #portfolio .tag {
    font: 15px/24px 'opensans-regular', sans-serif;
-   margin-top: 6px;
+   line-height:130%;
+   margin-top: 3px;
 }
 /*	Portfolio end*/
 
