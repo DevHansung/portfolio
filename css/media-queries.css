@@ -1,23 +1,18 @@
-/* screenwidth less than 1024px
---------------------------------------------------------------------- */
+/* screenwidth less than 1024px*/
 @media only screen and (max-width: 1024px) {
 
-    /* header styles
-   ------------------------------------------------------------------ */
+    /* header styles */
    header .banner-text h1 {
       font: 80px/1.1em 'opensans-bold', sans-serif;
       letter-spacing: -1px;
       margin: 0 auto 12px auto;
    }
-
 }
 
-/* screenwidth less than 900px
---------------------------------------------------------------------- */
-@media only screen and (max-width: 900px) {
 
-    /* header styles
-   ------------------------------------------------------------------ */
+/* screenwidth less than 900px*/
+@media only screen and (max-width: 900px) {
+    /* header styles*/
    header .banner { padding-bottom: 12px; }
    header .banner-text h1 {
       font: 78px/1.1em 'opensans-bold', sans-serif;
@@ -36,10 +31,7 @@
       font: 11px 'opensans-bold', sans-serif;
       letter-spacing: 1.5px;
    }
-
-
-   /* About Section
-   ------------------------------------------------------------------- */
+   /* About Section */
    #about .profile-pic {
       width: 114px;
       height: 114px;
@@ -47,14 +39,10 @@
    }
    #about .contact-details { width: 50%; }
    #about .download { width: 50%; }
-
-   /* Resume Section
-   ------------------------------------------------------------------- */
+   /* Resume Section */
    #resume h1 { font: 16px/24px 'opensans-bold', sans-serif; }
    #resume .main-col { padding-right: 5%; }   
-
-   /* Testimonials Section
-   ------------------------------------------------------------------- */
+   /* Testimonials Section */
    #contact .header-col h1:before {
       font-size: 66px;
       line-height: 66px;
@@ -63,33 +51,24 @@
       font-size: 22px;
       line-height: 46px;      
    }
-
-    /* Call to Action Section
-   ------------------------------------------------------------------- */
+    /* Call to Action Section*/
    #call-to-action .header-col h1:before {
       font-size: 66px;
       line-height: 66px;
    }
-
-   /* Contact Section
-   ------------------------------------------------------------------- */
+   /* Contact Section*/
    #contact .section-head { margin-bottom: 30px; }
    #contact .header-col h1:before {
       font-size: 66px;
       line-height: 66px;
    }
    #contact .section-head p.lead { font: 17px/33px opensans-light, sans-serif; }
-
-
 }
 
-/* mobile wide/smaller tablets
----------------------------------------------------------------------- */
 
+/* mobile wide/smaller tablets*/
 @media only screen and (max-width: 768px) {
-
-   /* mobile navigation
-   -------------------------------------------------------------------- */
+   /* mobile navigation */
    #nav-wrap {
       font: 12px 'opensans-bold', sans-serif;
       background: transparent !important;
@@ -113,7 +92,6 @@
       top: 0px;
       right: 10px;
    }
-
 	#nav-wrap > a:before,
    #nav-wrap > a:after {
 	   position: absolute;
@@ -124,9 +102,7 @@
       content: '';
       background-color: #242424;
    }
-
    #nav-wrap > a:after { top: 60%; }
-
    #nav-wrap:target > a:before{   
       -webkit-transform: rotate(-45deg) translate(-7px,7px);
       transform: rotate(-45deg) translate(-7px,7px);  
@@ -135,13 +111,11 @@
       -webkit-transform: rotate(45deg) translate(-1.5px,-2px);
       transform: rotate(45deg) translate(-1.5px,-2px);
    }
-
    /* toggle buttons */
 	#nav-wrap:not( :target ) > a:first-of-type,
 	#nav-wrap:target > a:last-of-type  {
 	   display: block;
 	}
-
    /* hide menu panel */
    #nav-wrap ul#nav {
       height: auto;
@@ -154,7 +128,6 @@
       top: 12px;
       right: 0;
    }
-
    /* display menu panels */
 	#nav-wrap:target > ul#nav	{
 	   display: block;
@@ -163,7 +136,6 @@
       margin: 0 20px;
       clear: both;
    }
-
    ul#nav li {
       display: block;
       height: auto;      
@@ -173,7 +145,6 @@
       border-bottom: 1px solid #2D2E34;
       border-bottom-style: dotted; 
    }
-  
    ul#nav li a {  
       display: block;    
       margin: 0;
@@ -182,10 +153,7 @@
       line-height: 16px; /* reset line-height from 48px */
       border: none;
    }  
-
-
-   /* Header Styles
-   -------------------------------------------------------------------- */
+   /* Header Styles*/
    header .banner {
       padding-bottom: 12px;
       padding-top: 6px;
@@ -199,7 +167,6 @@
       width: 80%;
       margin: 18px auto;
    }
-
    /* header social links */
    header .social {
       margin: 18px 0 24px 0;
@@ -211,9 +178,7 @@
    /* scrolldown link */
    /* header .scrolldown { display: none; } */
 
-
-   /* About Section
-   -------------------------------------------------------------------- */
+   /* About Section*/
    #about .profile-pic { display: none; }
    #about .download {
       margin-bottom: 5px;
@@ -226,7 +191,6 @@
    #about p{
       font-size: 13px;
    }
-
    #about h3{
       font-size: 13px;
    }
@@ -241,13 +205,9 @@
    }
    #about .contentsRight{
       all: unset;
-
    }
    #about .main-col { padding-right: 30px; }
-
-
-   /* Resume Section
-   --------------------------------------------------------------------- */
+   /* Resume Section*/
    #portfolio .header-col {
       padding-top: 0;
       margin-bottom: 48px;
@@ -270,9 +230,7 @@
       font-size: 12px;
    }
    .bars { width: 100%; }
-
-   /* Call To Action Section
-   /* ----------------------------------------------------------------- */
+   /* Call To Action Section */
    #call-to-action { text-align: center; }
    #call-to-action h1 {
       font: 16px/24px 'opensans-bold', sans-serif;
@@ -283,16 +241,10 @@
    #call-to-action h1 span { display: block; }
    #call-to-action .header-col h1:before { content: none; }
    #call-to-action p { font-size: 15px; }
-
-
-   /* Portfolio Section
-   /* ----------------------------------------------------------------- */
+   /* Portfolio Section*/
    #portfolio-wrapper .columns { margin-bottom: 40px; }
    .popup-modal {	max-width: 85%; }
-
-
-   /* Testimonials Section
-   ----------------------------------------------------------------------- */
+   /* Testimonials Section*/
    #contact .text-container { text-align: center; }
    #contact h1 {
       font: 16px/24px 'opensans-bold', sans-serif;
@@ -307,24 +259,18 @@
       font-size: 20px;
       line-height: 42px;      
    }
-
    /* Control Nav */
    .flex-control-nav {
       text-align: center;
       margin-left: -30px;
    }
-
-   /* footer
-   ------------------------------------------------------------------------ */
-  
+   /* footer*/
    /* copyright */
    footer .copyright li:before { content: none; }
    footer .copyright li { margin-right: 12px; }
-
    /* social links */
    footer .social-links { font-size: 22px; }
    footer .social-links li { margin-left: 18px; }
-
    /* Go To Top Button */
    #go-top { margin-left: -22px; }
    #go-top a {
@@ -333,21 +279,14 @@
       font-size: 18px;
       line-height: 54px;
    }
-
-
 }
 
-/* mobile narrow
-  -------------------------------------------------------------------------- */
 
+/* mobile narrow*/
 @media only screen and (max-width: 480px) {
-
-   /* mobile navigation
-   -------------------------------------------------------------------- */
+   /* mobile navigation */
    #nav-wrap ul#nav { width: auto; float: none; }
-
-   /* header styles
-   -------------------------------------------------------------------- */
+   /* header styles*/
    header .banner { padding-top: 24px; }
    header .banner-text h1 {
       font: 40px/1.1em 'opensans-bold', sans-serif;      
@@ -357,30 +296,24 @@
       font: 14px/1.9em 'librebaskerville-regular', sans-serif;
       width: 90%;
    }
-  
    /* header social links */
    header .social { font-size: 20px;}
    header .social li { margin: 0 6px; }
-
    header .copyright{
       font-size: 11px;
    }
    #portfolio .contents-box {
       font-size: 10px;
    }
-
    #portfolio .tag{
       font-size: 10px;
    }
-
    #contact blockquote .contactMessage {
       font-size: 10px;
    }
-
    /* social links */
    footer .social-links { font-size: 20px; }
    footer .social-links li { margin-left: 14px; }   
-
 }
 
 
