@@ -232,6 +232,7 @@ header .scrolldown .icon-down-circle:hover { color: #222222cb; }
    font-size: 14px;
    color: rgb(27, 27, 27);
    margin-bottom:5px;
+   margin-left:5px;
 }
 #about .profile-pic {
    position: relative;
