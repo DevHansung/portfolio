@@ -237,13 +237,8 @@
       line-height: 36px;      
    }
    header .social li { margin: 0 10px; }
-
-   /* scrolldown link */
-   /* header .scrolldown { display: none; } */
-
    /* About Section*/
    #about .profile-pic { display: none; }
-
    #about p{
       font-size: 13px;
       line-height:130%;
@@ -257,15 +252,16 @@
       margin-bottom: 11px;
    }
    #about .contents{
+      line-height: 1.2rem;
       font-size: 12px;
    }
    #about .about-block{
       display: inline-block;
    }
-   #about .contentsLeft{
+   #about .contents-row{
       all: unset;
    }
-   #about .contentsRight{
+   #about .contents-cell{
       all: unset;
    }
    #about .main-col { padding-right: 30px; }
@@ -377,12 +373,3 @@
    footer .social-links { font-size: 20px; }
    footer .social-links li { margin-left: 14px; }   
 }
-
-
-
-
-
-
-
-
-

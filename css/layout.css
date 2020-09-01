@@ -228,7 +228,7 @@ header .scrolldown .icon-down-circle:hover { color: #222222cb; }
    margin-bottom:5px;
 }
 #about .contents{
-   line-height: 1.1rem;
+   line-height: 1.5rem;
    font-size: 14px;
    color: rgb(27, 27, 27);
    margin-bottom:5px;
@@ -246,20 +246,14 @@ header .scrolldown .icon-down-circle:hover { color: #222222cb; }
    height: 100%;
    border-bottom: 1px dashed #12a568;
 }
-#about .contentsLeft{
-   clear: both;
-   float: left;
-   width:50%;
-   height: 100%;
+#about .contents-row{
+   display: table-row;
 }
-#about .contentsRight{
-   float: right;
+#about .contents-cell{
+   display: table-cell;
    width:50%;
-   height: 100%;
 }
-
 #about .contact-details { width: 41.66667%; }
-
 #about .main-col { padding-right: 5%; }
 #about .download {
    margin-top: 5px;
